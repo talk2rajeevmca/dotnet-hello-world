@@ -1,4 +1,4 @@
 ﻿---
 applications:
-- name: hello-world-api
+- name: hello-world-apis
   memory: 1G
