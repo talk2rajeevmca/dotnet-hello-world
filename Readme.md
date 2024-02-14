@@ -1,4 +1,4 @@
-﻿# Hello World .NET Core Application
+﻿# Hello World .NET Core Application for client
 
 # Run locally
 ```
