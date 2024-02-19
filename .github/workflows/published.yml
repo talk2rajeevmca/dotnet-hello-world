@@ -2,7 +2,7 @@ on:
   release:
     types: [published]
 jobs:
-  deploy_to_test:
+  deploy_to_prod:
     runs-on: ubuntu-latest
     steps:
       - name: my-step prod
