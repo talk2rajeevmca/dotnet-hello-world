@@ -3,4 +3,8 @@ on:
     types: [prereleased]
 jobs:
   deploy_to_test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: echo "Hello World!"
     
