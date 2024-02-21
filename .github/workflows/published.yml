@@ -7,5 +7,11 @@ jobs:
     steps:
       - name: my-step prod
         run: echo "Hello World!"
+      - name: Create Github Release and PR	
+        run: |
+           gh release create v1.2.3 --notes "create release"
+           gh pr create --base master --head release -d --title "Testing PR creation"
+        
+      
     
 
